@@ -828,7 +828,7 @@
   <string name="setting_page_preferences_theme">Design</string>
   <string name="setting_page_preferences_theme_desc">Dynamische Farben, Design, AMOLED-Dunkelmodus</string>
   <string name="setting_page_preferences_notification">Benachrichtigungen</string>
-  <string name="setting_page_preferences_notification_desc">Update-Hinweise, Benachrichtigungen zur Nachrichtengenerierung, schwebendes Hintergrundfenster</string>
+  <string name="setting_page_preferences_notification_desc">Benachrichtigungen zur Nachrichtengenerierung, schwebendes Hintergrundfenster</string>
   <string name="setting_page_color_mode">Farbmodus</string>
   <string name="setting_page_color_mode_dark">Dunkel</string>
   <string name="setting_page_color_mode_light">Hell</string>

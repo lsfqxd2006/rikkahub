@@ -963,7 +963,7 @@
   <string name="setting_page_preferences_network_user_agent">User-Agent</string>
   <string name="setting_page_preferences_network_user_agent_desc">اتركه فارغًا لاستخدام %1$s</string>
   <string name="setting_page_preferences_notification">الإشعارات</string>
-  <string name="setting_page_preferences_notification_desc">تنبيهات التحديث، إشعارات توليد الرسائل، النافذة العائمة في الخلفية</string>
+  <string name="setting_page_preferences_notification_desc">يد الرسائل، النافذة العائمة في الخلفية</string>
   <string name="setting_page_preferences_theme">المظهر</string>
   <string name="setting_page_preferences_theme_desc">الألوان الديناميكية، السمة، وضع AMOLED الداكن</string>
   <string name="setting_page_preferences_ui">تفضيلات واجهة المستخدم</string>
