@@ -31,11 +31,9 @@ import me.rerere.rikkahub.data.db.AppDatabaseFactory
 import me.rerere.rikkahub.data.db.fts.MessageFtsManager
 import me.rerere.rikkahub.data.remote.ModelsDevUpdater
 import me.rerere.rikkahub.data.remote.RemoteFileStore
-import me.rerere.rikkahub.data.remote.RikkaHubAPI
 import me.rerere.rikkahub.data.remote.SettingsProxyAuthenticator
 import me.rerere.rikkahub.data.remote.SettingsProxySelector
 import me.rerere.rikkahub.data.remote.SettingsSocks5Authenticator
-import me.rerere.rikkahub.data.remote.SponsorAPI
 import me.rerere.rikkahub.data.sync.BackupManager
 import me.rerere.rikkahub.data.sync.S3Sync
 import me.rerere.rikkahub.data.sync.webdav.WebDavSync
@@ -242,10 +240,6 @@ val dataSourceModule = module {
     }
 
     single {
-        SponsorAPI.create(get())
-    }
-
-    single {
         ModelsDevUpdater(context = get(), client = get())
     }
 
@@ -311,9 +305,5 @@ val dataSourceModule = module {
             .baseUrl("https://api.rikka-ai.com")
             .addConverterFactory(get<Json>().asConverterFactory("application/json; charset=UTF8".toMediaType()))
             .build()
-    }
-
-    single<RikkaHubAPI> {
-        get<Retrofit>().create(RikkaHubAPI::class.java)
     }
 }
