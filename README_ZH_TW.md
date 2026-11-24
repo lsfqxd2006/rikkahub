@@ -4,8 +4,6 @@
 
 一個原生Android LLM 聊天客戶端，支持切換不同的供應商進行聊天 🤖💬
 
-點擊加入我們的Discord伺服器 👉 [【RikkaHub】](https://discord.gg/9weBqxe5c4)
-
 [English](README.md) | 繁體中文 | [简体中文](README_ZH_CN.md)
 
 </div>
