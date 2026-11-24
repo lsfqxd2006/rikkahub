@@ -5,8 +5,6 @@
 A native Android LLM chat client that supports switching between different providers for
 conversations 🤖💬
 
-Click to join our Discord server 👉 [【RikkaHub】](https://discord.gg/9weBqxe5c4)
-
 [简体中文](README_ZH_CN.md) | [繁體中文](README_ZH_TW.md) | English
 </div>
 
